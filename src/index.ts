@@ -1,5 +1,5 @@
 import Web3 from "web3";
-import { EVM } from "@dequanto/evm/EVM";
+import { EVM } from "dequanto/src/evm/EVM";
 
 const provider =
   "https://eth-mainnet.g.alchemy.com/v2/kaP73g41gnaTbv615EkSN5Q8ZHNFTDSj";

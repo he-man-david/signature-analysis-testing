@@ -2,11 +2,13 @@
   "name": "testing-bullshit",
   "version": "1.0.0",
   "scripts": {
-    "start": "tsc && node ./dist/index.js"
+    "start": "rm -rf ./dist && tsc && node ./dist/index"
   },
   "author": "",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
+    "dequanto": "^0.0.7",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
     "web3": "^4.0.3"

@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const web3_1 = __importDefault(require("web3"));
-const EVM_1 = require("@dequanto/evm/EVM");
+const EVM_1 = require("dequanto/src/evm/EVM");
 const provider = "https://eth-mainnet.g.alchemy.com/v2/kaP73g41gnaTbv615EkSN5Q8ZHNFTDSj";
 // cryptokitties
 const contractAddress = "0x06012c8cf97BEaD5deAe237070F9587f8E7A266d";
