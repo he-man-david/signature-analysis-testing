@@ -2,7 +2,7 @@
   "name": "testing-bullshit",
   "version": "1.0.0",
   "scripts": {
-    "start": "ts-node index"
+    "start": "tsc && node ./dist/index.js"
   },
   "author": "",
   "license": "ISC",
